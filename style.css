@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  overflow: hidden; /* 🔒 Scroll বন্ধ করে দিলাম */
+
+  background-image: url('https://images.unsplash.com/photo-1521334884684-d80222895322');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00bfff;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00bfff;
+}
+
+.hero {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #e60000;
+}
